@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    flex-wrap: wrap;
   }
   
   .container {
@@ -43,6 +44,7 @@ body {
   }
   .man{
     display: flex;
+    flex-wrap: wrap;
     background-image: url("/images/background.jpg");
     justify-content: space-around;
     background-repeat: no-repeat;
